@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Add>
+         <tem:intA>${intProps#intA}</tem:intA>
+         <tem:intB>15</tem:intB>
+      </tem:Add>
+   </soap:Body>
+</soap:Envelope>
